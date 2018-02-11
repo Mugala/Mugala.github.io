@@ -4930,8 +4930,9 @@ tbody.collapse.show {
 }
 
 .jumbotron {
-  padding: 2rem 1rem;
+  padding: 2rem 8rem;
   margin-bottom: 2rem;
+  margin-left: 6rem;
   background-color: #BEDDF7;
   border-radius: 0.3rem;
 }
