@@ -97,6 +97,12 @@ abbr[data-original-title] {
   cursor: help;
   border-bottom: 0;
 }
+.font-style{
+  line-height: 40px;
+font-family: cursive;
+font-style: normal;
+font-stretch: semi-expanded;
+}
 
 address {
   margin-bottom: 1rem;
@@ -207,7 +213,7 @@ figure {
 .sidebar {
   width: 24%;
   float: right;
-  background-color: blue;
+  background-color: ;
 }
 
 img {
