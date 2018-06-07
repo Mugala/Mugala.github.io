@@ -1,51 +1,111 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Portfolio Landing Page</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Nunito+Sans|Pacifico|Quicksand" rel="stylesheet">
+
+  <title>Levi Mugala</title>
+</head>
+
+<body>
+  <div id="page-heading">
     <div class="container">
-      <div class="jumbotron">
-       <h1>Hey! I'm Levi Mugala.</h1>
-       <div class="font-style">
-       <p>Experience without theory is blind, but theory without experience is mere <em>intellectual play</em>. <br>~Immanuel Kant~</p>
-     </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div id="title">
+            <p>Experience without theory is blind, but theory without experience is mere intellectual play.</p>
+            <p class="pacifico"> - Immanuel Kant</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <img src="images/batman.jpg" alt="Batman fighting for Justice ;)">
-    <h2>About me.</h2>
-    <p>If we are indeed the sum total of our experience...below are mine :)</p>
-    <div class="sidebar">
-     <img class="rotate" src="images/me.JPG" alt="Dats me1" height="500" width="350">
+  </div>
+  <div class="container" id="main">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="page-header">
+          <h2 class="pacifico">Levi Mugala</h2>
+          <small>Software Developer</small>
+        </div>
+        <p>A student of <a href="http://moringaschool.com/">Moringa School</a>. Passionate about backend software engineering, data science and artificial intelligence</p>
+        <p>I spend a considerable amount of time learning Mathematics and Physics concepts and also facinated about astrophyics.</p>
+        <h4></h4>
+      </div>
     </div>
-    <h4>Education.</h4>
-    <p>Been through <strong>four</strong> institutions in the past decade...</p>
-    <ul>
-      <li>Friends School Kamusinga</li>
-      <li>Nairobi University</li>
-      <li>Strathmore University</li>
-      <li>Moringa School</li>
-    </ul>
-    <p>That has led me to work for a few institutions that incude but not limiting to...</p>
-    <ol>
-      <li>Kenya Agricultural Research Institute</li>
-      <li>The Capital Markets Authority</li>
-      <li>Swivel Box</li>
-      <li>Kytabu Company Limited</li>
-    </ol>
-    <p>Reason(s) that led me to join Moringa School:</p>
-    <ul>
-      <li>Developing the skill of problem solving in the <strong>most efficcient</strong> way possible.</li>
-      <li>Growing Interest in programming.</li>
-    </ul>
-    <h4>Hobbies/Skills/Interest</h4>
-    <ul>
-      <li>Books</li>
-      <li>Philosophy</li>
-      <li>Computer Science</li>
-      <li>Music</li>
-    </ul>
-    </p>Check out <a href="https://mugala.github.io/my-fav-thing-s-/">My first ever projects</a>. Disclaimer! nothing fancy ;)</p>
+    <div class="row">
+      <div class="container">
+        <div class="page-header">
+          <h2 class="pacifico">Skills</h2>
+        </div>
+        <div class="col-md-6 project">
+          <h2>Full Stack Developer</h2>
+          <h3></h3>
+          <p><small>Angular.</small></p>
+          <img src="img/angular.png" alt="img-1" class="img-responsive img-circle project-image">
+        </div>
+
+        <div class="col-md-6 project">
+          <p><small>Flask.</small></p>
+          <img src="img/flask.jpg" alt="img-1" class="img-responsive img-circle project-image">
+        </div>
+      </div>
+      <div class="col-md-6 project">
+        <p><small>Django.</small></p>
+        <img src="img/django.png" alt="img-1" class="img-responsive img-circle project-image">
+      </div>
     </div>
-  </body>s
+    <div class="row">
+      <div class="container">
+        <div class="page-header">
+          <h2 class="pacifico">Projects</h2>
+        </div>
+        <div class="col-md-6 project">
+          <h3>My Photo Gallery</h3>
+          <p><small>A personal gallery application that displays my photos.</small></p>
+          <a href="https://levisgallery.herokuapp.com/" target="_blank"><img src="img/photoG.png" style="width: 70%;" alt="img-1" class="img-responsive img-circle project-image" title="View Website"></a>
+          <a href="https://github.com/Mugala/Photo-Gallery" target="_blank"><i class="fa fa-github fa-3x github" aria-hidden="true" title="Source Code"></i></a>
+        </div>
+
+        <div class="col-md-6 project">
+          <h3>News-Highlights</h3>
+          <p><small>Application that lists and preview news articles from various sources.</small></p>
+          <a href="https://newshighlightslevi.herokuapp.com/" target="_blank"><img src="img/newsH.png" style="width: 70%;"alt="img-1" class="img-responsive img-circle project-image" title="View Website"></a>
+          <a href="https://github.com/Mugala/News-Highlights" target="_blank"><i class="fa fa-github fa-3x github" aria-hidden="true" title="Source Code"></i></a>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="container">
+          <div class="col-md-6 project">
+            <h3>Github-Search</h3>
+            <p><small>Web Application search engine that allows users to locate public repositories and accounts by submitting a GitHub username.</small></p>
+            <a href="https://mugala.github.io/Github-Search/" target="_blank"><img src="img/Git.png" style="width: 70%;"alt="img-1" class="img-responsive img-circle project-image" title="View Website"></a>
+            <a href="https://github.com/Mugala/Github-Search" target="_blank"><i class="fa fa-github fa-3x github" aria-hidden="true" title="Source Code"></i></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <ul>
+
+      </li>
+      <li><a href="#" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></li>
+        <li><a href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+      </ul>
+  </footer>
+
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/e222e7ee3c.js"></script>
+</body>
+
 </html>
